@@ -3,7 +3,7 @@ package signup
 import (
 	"net/http"
 
-	"github.com/kchang4/auth/internal/data"
+	"github.com/kchang4/authservice/internal/data"
 )
 
 func SignupHandler(rw http.ResponseWriter, r *http.Request) {
